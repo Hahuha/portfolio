@@ -1,0 +1,24 @@
+{{>top}}
+{{> section_nav}}
+<!-- CONTENU -->
+<div class="container">
+    <div class="row">
+		{{#projets}}
+        <div class="col s4">
+            <div class="card">
+                <div class="card-image">
+                    <img src="media/images/{{img}}">
+                    <span class="card-title">{{name}}</span>
+                </div>
+                <div class="card-content">
+                    <p>{{short_desc}}</p>
+                </div>
+                <div class="card-action">
+                    <a href='./projets/{{url}}'>Détails</a>
+                </div>
+            </div>
+        </div>
+		{{/projets}}
+    </div>
+</div>
+{{>bottom}}

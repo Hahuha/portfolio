@@ -1,0 +1,108 @@
+/* Custom Stylesheet */
+
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+.icon-block {
+    padding: 0 15px;
+}
+#navbar {
+    padding-top: 8px;
+    padding-left: 15px;
+}
+/**
+ * Permet de fixer la barre en haut lorsqu'on scroll
+ */
+
+.navbar-fixed-top {
+    top: 0;
+    border-width: 0 0 1px;
+    position: fixed;
+    right: 0;
+    left: 0;
+    -webkit-transform: translate3d(0, 0, 0);
+    -o-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+}
+/**
+ * Affiche un arriere plan grisé sur le jumbotron
+ */
+
+#jumbotron {
+    background-color: rgba(149, 165, 166, 0.6);
+    padding-top: 5px;
+    margin-top: 80px;
+}
+/**
+ * Permet de changer la taille du parallax
+ */
+
+#banner {
+    height: 250px;
+}
+/**
+ * Petit badge pour les skills
+ */
+
+.skill-badge {
+    margin-top: 0em;
+    margin-bottom: 0em;
+    margin-left: .1em;
+    margin-right: .1em;
+    border-radius: 0;
+    font-weight: 300;
+    display: inline-block;
+    padding: .2em .6em .3em;
+    font-size: 75%;
+    line-height: 1;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+}
+/*
+ * Permet de resize les GMap
+ */
+
+.card-reveal {
+    width: 100%;
+}
+.iframe-rwd {
+    position: relative;
+    padding-bottom: 65.25%;
+    padding-top: 30px;
+    height: 0;
+    overflow: hidden;
+}
+.iframe-rwd #map-canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+/**
+ * Permet de changer la couleur sur les sommaires dynamiques
+ */
+
+ul.table-of-contents a.active {
+    border-left: 2px solid #00c853;
+}
+
+/**
+ * Page d'erreur
+ */ 
+ .outer-error {
+    display: table;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+ }
+
+ .outer-error .container {
+    display: table-cell;
+    vertical-align: middle;
+ }
