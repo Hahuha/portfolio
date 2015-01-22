@@ -88,6 +88,10 @@
  * Permet de changer la couleur sur les sommaires dynamiques
  */
 
+ul.table-of-contents a:hover {
+    border-left: 1px solid #00c853;
+}
+
 ul.table-of-contents a.active {
     border-left: 2px solid #00c853;
 }
