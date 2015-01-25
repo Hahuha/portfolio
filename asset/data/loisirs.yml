@@ -1,0 +1,34 @@
+title : "Loisirs"
+parallax: "asset/images/background/alizarin.png"
+nav-color: "red darken-1"
+loisirs:
+    - id: "sports"
+      name: "Sports"
+      content:
+        - name: "Escalade"
+          img: <img src="media/images/climbing.jpg">
+          description: "Here is some more information about this product that is only revealed once clicked on."
+        - name: "Snowboard"
+          img: <img src="media/images/snowboard.jpg">
+          description: "Here is some more information about this product that is only revealed once clicked on."
+  
+    - id: "loisirs"
+      name: "Loisirs"
+      content:
+        - name: "Voyages"
+          img: |
+            <div id="gmap-section" class="iframe-rwd">
+                <div id="map-canvas"></div>
+            </div>
+          description: "Here is some more information about this product that is only revealed once clicked on."
+        - name: "Lecture & Jeux"
+          img : <img src="media/images/snowboard.jpg">
+          description : "Here is some more information about this product that is only revealed once clicked on."
+
+    - id: "associatif"
+      name: "Associatif"
+      content:
+        - name: "Secrétaire du BDE 3IL Rodez"
+          img: <img src="media/images/bde.jpg">
+          description: "Here is some more information about this product that is only revealed once clicked on."
+      

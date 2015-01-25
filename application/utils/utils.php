@@ -1,0 +1,129 @@
+<?php
+/**
+ * Class and Function List:
+ * Function list:
+ * - getCurrentUri()
+ * - route()
+ * - getLoisirData()
+ * - getProjectData()
+ * - getResumeData()
+ * - getYamlArray()
+ * Classes list:
+ */
+
+/****************************
+ * 							*
+ * 		 MOD_REWRITE		*
+ * 							*
+ ****************************/
+/**
+ * The following function will strip the script name from URL i.e.  http://www.something.com/search/book/fitzgerald
+ * will become /search/book/fitzgerald
+ */
+function getCurrentUri() 
+{
+	$basepath = implode('/', array_slice(explode('/', $_SERVER['SCRIPT_NAME']), 0, -1)) . '/';
+	$uri = substr($_SERVER['REQUEST_URI'], strlen($basepath));
+	
+	if (strstr($uri, '?')) $uri = substr($uri, 0, strpos($uri, '?'));
+	
+	$uri = '/' . trim($uri, '/');
+	return $uri;
+}
+
+/**
+ * Cette fonction va permettre de résoudre la route passée en paramètre pour afficher le bon résultat
+ */
+function route($routes) 
+{
+	$template_name = null;
+	$data = null;
+	
+	$route_size = count($routes);
+	
+	// Si l'uri est vide alors on rebalance sur la page d'accueil
+	
+	if ($route_size <= 0 || $routes[0] == "accueil") 
+	{
+		$template_name = "accueil";
+		$data = array('notempty' => true);
+	} else if ($routes[0] == "experience") 
+	{
+		$template_name = 'cv';
+		$data = getResumeData();
+	} else if ($routes[0] == "loisirs") 
+	{
+		$template_name = 'loisirs';
+		$data = getLoisirData();
+	} else if ($routes[0] == "projets") 
+	{
+		
+		if ($route_size > 1 && !is_null($routes[1]) && !empty($routes[1])) 
+		{
+			$template_name = 'projet';
+			$projets = getProjectData();
+			$data = array('title' => 'Mon projet', 'parallax' => 'asset/images/background/bg4.png', 'nav-color' => 'teal accent-3', 'projets' => $projets);
+		} else
+		{
+			$template_name = 'list_projets';
+			$data = getProjectData();
+		}
+	}
+	
+	// Si aucune route n'a été trouvée on redirige vers une page d'erreur
+	
+	if ($template_name == null || $data == null) 
+	{
+		$template_name = 'error';
+		$data = array('title' => 'Erreur 404', 'message' => 'Page non trouvée');
+	}
+	
+	return array('template_name' => $template_name, 'data' => $data);
+}
+
+
+/****************************
+ * 							*
+ * 		  YAML DATA			*
+ * 							*
+ ****************************/
+require_once __DIR__ . '\..\vendor\autoload.php';
+
+use Symfony\Component\Yaml\Yaml;
+
+/**
+ * Create the data to load on the loisirs section
+ */
+function getLoisirData() 
+{
+	$return = new ArrayIterator(getYamlArray("asset/data/loisirs.yml"));
+	return $return;
+}
+
+/**
+ * Create the data to load on the projects session
+ */
+function getProjectData($project = null) 
+{
+	
+	if (is_null($project) || empty($project)) 
+	{
+		return new ArrayIterator(getYamlArray("asset/data/projets.yml"));
+	}
+}
+
+function getResumeData() 
+{
+	return new ArrayIterator(getYamlArray("asset/data/resume.yml"));
+}
+
+/**
+ * Recupere le contenu du fichier YAML et le renvoie sous forme de tableau associatif
+ */
+function getYamlArray($filename) 
+{
+	$value = Yaml::parse(file_get_contents($filename));
+	
+	return $value;
+}
+?>

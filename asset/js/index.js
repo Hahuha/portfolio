@@ -13,8 +13,9 @@ $(document).ready(function() {
     $('.table-of-contents').pushpin({
         top: 500
     });
-
-    gmap();
+    if ($('#gmap-section').length != 0) {
+        gmap();
+    }
 });
 $(window).scroll(function() {
     // The total height of the jumbotron
