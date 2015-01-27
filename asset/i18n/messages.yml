@@ -1,0 +1,49 @@
+fr:
+  footer:
+    find_me: "Retrouvez-moi"
+    author: "Ce site a été réalisé par Valentin Carmignac à l'aide de "
+  accueil:
+    title: "Accueil"
+    jumbotron: |
+      Bienvenue, ce site est mon portfolio. D&eacute;couvrez-y mon profil, exp&eacute;riences et projets. Je suis un jeune ing&eacute;nieur aimant son travail et aimant bouger.<br/><br/>Bonne visite !
+    more: "Plus d'informations"
+  resume:
+    title: "Curriculum vitae"
+    short_desc: "Mon parcours scolaire, mes différents emplois ainsi que mes compétences"
+  loisirs:
+    title: "Loisirs"
+    short_desc: "Les activités qui me tiennent à coeur et que je pratique durant mon temps libre"
+  project:
+    title: "Projets"
+    short_desc: "L'ensemble des projets réalisés à l'école ou indépendamment"
+    portfolio:
+      name: "Portfolio"
+      short_desc: "Description de mon portfolio."
+      goal: "But du portfolio"
+      description: "Description de mon portfolio"
+      techno: "Technologies de mon portfolio"
+  
+en:
+  footer:
+    find_me: "Find me"
+    author: "This website was created by Carmignac with "
+  accueil:
+    title: "Home"
+    jumbotron: |
+      Welcome, this website is my portfolio. Discover my profile, experiences and projects. I'm a young engineer who loves is work and likes to travel.<br/><br/>Enjoy !
+    more: "More details"
+  resume:
+    title: "Curriculum vitae"
+    short_desc: "Mon parcours scolaire, mes différents emplois ainsi que mes compétences"
+  loisirs:
+    title: "Spare-time Activities"
+    short_desc: "Les activités qui me tiennent à coeur et que je pratique durant mon temps libre"
+  project:
+    title: "Projects"
+    short_desc: "L'ensemble des projets réalisés à l'école ou indépendamment"
+    portfolio:
+      name: "PortfolioEN"
+      short_desc: "ENDescription de mon portfolio."
+      goal: "ENBut du portfolio"
+      description: "ENDescription de mon portfolio"
+      techno: "ENTechnologies de mon portfolio"

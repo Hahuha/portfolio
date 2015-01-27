@@ -1,21 +1,45 @@
 $(document).ready(function() {
     // Effet de parrallaxe sur les images en haut et en bas
     $('.parallax').parallax();
+
     // Initialize collapse button
     $(".button-collapse").sideNav({
         edge: 'left'
     });
+
     // Initialize collapsible
     $('.collapsible').collapsible();
     $(document).ready(function() {
         $('.scrollspy').scrollSpy();
     });
+
+    // gestion du suivi de la table des matieres
     $('.table-of-contents').pushpin({
         top: 500
     });
+
+    // Gestion des dropdowns
+    $(document).ready(function(){
+        $('.dropdown-button').dropdown();
+    });
+
+    // Gestion du gmap
     if ($('#gmap-section').length != 0) {
         gmap();
     }
+
+    // Gestion du changement de locale
+    $('.locale').each(function () {
+        $(this).click(function() {
+            var locale = $(this).attr('id');
+
+            $.ajax({
+                url: "locale/" + locale
+            }).done(function() {
+                location.reload();
+            });
+        });
+    });
 });
 $(window).scroll(function() {
     // The total height of the jumbotron

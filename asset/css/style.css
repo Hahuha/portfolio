@@ -102,6 +102,13 @@
     vertical-align: middle;
  }
 
+/**
+ * Permet d'afficher un pointeur sur les liens sans href
+ */
+.a-btn {
+    cursor: pointer;
+}
+
  /**
  * Permet de changer la couleur sur les sommaires dynamiques
  */

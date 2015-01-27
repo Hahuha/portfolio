@@ -1,14 +1,31 @@
-<footer class="{{nav-color}}">
-            <div class="container">
-                Made by <a href="http://materializecss.com">Materialize</a>
+<footer class="page-footer {{nav-color}}">
+    <div class="container">
+        <div class="row">
+            <div class="col l6 s12">
+                <h5 class="white-text">{{#i18n}}footer.find_me{{/i18n}}</h5>
             </div>
-        </footer>
-        <!--  Scripts-->
-        <script src="asset/js/jquery-2.1.1.min.js"></script>
-        <script src="asset/js/jquery-ui.min.js"></script>
-        <script src="asset/js/materialize.js"></script>
-        <script src="asset/js/scrollspy.js"></script>
-        <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?v=3.exp&signed_in=false"></script>
-        <script src="asset/js/index.js"></script>
-    </body>
+            <div class="col l4 offset-l2 s12">
+                <h5 class="white-text">Language</h5>
+                <ul style="list-style-type:none">
+                    <li><a id="fr" class="a-btn locale grey-text text-lighten-3">Français</a></li>
+                    <li><a id="en" class="a-btn locale grey-text text-lighten-3">English</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="footer-copyright">
+        <div class="container">
+            © 2015, Valentin Carmignac
+            <span class="right  ">{{#i18n}}footer.author{{/i18n}}<a class="grey-text text-lighten-4" href="http://materializecss.com/">Materialize</a></span>
+        </div>
+    </div>
+</footer>
+<!--  Scripts-->
+<script src="asset/js/jquery-2.1.1.min.js"></script>
+<script src="asset/js/jquery-ui.min.js"></script>
+<script src="asset/js/materialize.js"></script>
+<script src="asset/js/scrollspy.js"></script>
+<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?v=3.exp&signed_in=false"></script>
+<script src="asset/js/index.js"></script>
+</body>
 </html>

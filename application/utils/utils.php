@@ -10,12 +10,15 @@
  * - getYamlArray()
  * Classes list:
  */
+require_once 'database.php';
+require_once 'translation.php';
 
 /****************************
  * 							*
  * 		 MOD_REWRITE		*
  * 							*
  ****************************/
+
 /**
  * The following function will strip the script name from URL i.e.  http://www.something.com/search/book/fitzgerald
  * will become /search/book/fitzgerald
@@ -46,7 +49,7 @@ function route($routes)
 	if ($route_size <= 0 || $routes[0] == "accueil") 
 	{
 		$template_name = "accueil";
-		$data = array('notempty' => true);
+		$data = array('message' => '{{#i18n}}accueil.jumbotron{{/i18n}}');
 	} else if ($routes[0] == "experience") 
 	{
 		$template_name = 'cv';
@@ -61,8 +64,13 @@ function route($routes)
 		if ($route_size > 1 && !is_null($routes[1]) && !empty($routes[1])) 
 		{
 			$template_name = 'projet';
-			$projets = getProjectData();
-			$data = array('title' => 'Mon projet', 'parallax' => 'asset/images/background/bg4.png', 'nav-color' => 'teal accent-3', 'projets' => $projets);
+			
+			$db = new Database();
+			$data = $db->getProjectByUrl($routes[1]);
+			
+			//$projets = getProjectData();
+			// $data = array('title' => 'Mon projet', 'parallax' => 'asset/images/background/bg4.png', 'nav-color' => 'teal accent-3', 'projets' => $projets);
+			
 		} else
 		{
 			$template_name = 'list_projets';
@@ -80,7 +88,6 @@ function route($routes)
 	
 	return array('template_name' => $template_name, 'data' => $data);
 }
-
 
 /****************************
  * 							*
@@ -108,7 +115,12 @@ function getProjectData($project = null)
 	
 	if (is_null($project) || empty($project)) 
 	{
-		return new ArrayIterator(getYamlArray("asset/data/projets.yml"));
+		$db = new Database();
+		$result = $db->getProjectsSummary();
+		
+		$projet = getYamlArray("asset/data/projets.yml");
+		$projet['projets'] = $result;
+		return new ArrayIterator($projet);
 	}
 }
 
