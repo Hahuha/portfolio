@@ -2,23 +2,195 @@ fr:
   footer:
     find_me: "Retrouvez-moi"
     author: "Ce site a été réalisé par Valentin Carmignac à l'aide de "
+  
   accueil:
     title: "Accueil"
     jumbotron: |
-      Bienvenue, ce site est mon portfolio. D&eacute;couvrez-y mon profil, exp&eacute;riences et projets. Je suis un jeune ing&eacute;nieur aimant son travail et aimant bouger.<br/><br/>Bonne visite !
+        Bienvenue, ce site est mon portfolio. D&eacute;couvrez-y le profil d'un jeune ing&eacute;nieur aimant son travail et aimant bouger.<br/><br/>Bonne visite !
     more: "Plus d'informations"
+  
   resume:
     title: "Curriculum vitae"
     short_desc: "Mon parcours scolaire, mes différents emplois ainsi que mes compétences"
+    professional:
+      title: "Expériences professionnelles"
+      bittle: 
+        title: Bittle - Apprenti ingénieur <label>Septembre 2012 – Septembre 2015</label>
+        description: |
+          <p>
+            <strong>Site officiel :</strong> <a href="http://www.bittle-solutions.com/">www.bittle-solutions.com</a>
+            <br><br>
+            Bittle est l'entreprise dans laquelle j'ai effectué mon apprentissage durant mes trois années d'école d'ingénieurs. Basée à Aix-en-Provence, c'est une entreprise à dimension humaine où j'ai put trouver des personnes qui m'ont beaucoup apporté sur un plan à la fois humain et technique.<br><br>
+            D'un point de vue humain j'ai appris le fonctionnement d'une entreprise et également à travailler sur différents projets avec d'autres personnes tout en respectant les délais. Sur le plan technique j'ai appris à utiliser JEE et Hibernate et j'ai approfondi mes connaissances en HTML, CSS, Javascript et web. 
+          </p>    
+      snecma: 
+        title: Safran Snecma - Stagiaire <label>Avril 2012 – Juin 2012</label>
+        description: |
+          <p>
+            <strong>Site officiel :</strong> <a href="http://www.snecma.com/">www.snecma.com/</a>
+          <br><br>
+            Ce stage de deux mois, réalisé dans le cadre de mes études de DUT, a eu lieu sur le site Snecma de Villaroche, où sont réalisés les études et les essais des moteurs d'avions. Ce fut la première fois que je dut réaliser un projet dans un milieu professionel, j'ai appris à recueillir les besoins du client, à les exprimer puis à réaliser le projet attendu.
+          <br><br>
+            Ce projet consistait en la réalisation d’une application de consultation et modification de suivi d’espaces de stockage du site de Villaroche pour plusieurs utilisateurs. Application qui puisse gérer un système de comptes utilisateurs/administrateurs. Ce projet à été réalisé en Java, à l'aide de la librairie graphique Swing, de la librairie JNDI pour interagir avec l'annuaire LDAP du site et de la librairie DOM4J pour manipuler les fichiers XML dans lesquels étaient stockés les données.
+          </p>
+    formation:
+      title: "Formation"
+      3il: 
+       title: Ecole d’Ingénieur en informatique - 3IL Rodez <label>2012 – 2015</label>
+      iut:
+        title: DUT Informatique - IUT d’Aix-en-Provence <label>2009 – 2012</label>
+      lycee:
+        title: Baccalauréat STI - Lycée Marie-Madeleine Fourcade - Spécialité Électronique <label>2006 - 2009</label>
+    others:
+      title: "Autres experiences"
+      bnp:
+        title: BNP Paribas - Hôte d’accueil <label>Juillet 2012</label>
+        description: <p>Description</p>
+      buffalo:
+        title: "Buffalo Grill - Plongeur, préparateur entrée/dessert <label>Juillet 2011</label>"
+        description: <p>Description</p>
+      sg:
+        title: Société Général - Secrétariat <label>Juillet 2010</label>
+        description: <p>Description</p>
+      stef:
+        title: STEF-TFE - Préparateur de commande en chambre froide <label>Août 2009</label>
+        description: <p>Description</p>
+    skills:
+      technical: Compétences techniques
+      social:
+        title: Compétences sociales et d'ingénierie
+        lang : |
+          <span class="orange accent-4 white-text skill-badge">Anglais</span>
+          <span class="orange accent-4 white-text skill-badge">TOEIC (935/990) <a class=" modal-trigger" href="#modal1"><i class="black-text mdi-image-loupe"></i></a></span>
+        eng: |
+          <span class="purple white-text skill-badge">Merise</span>
+          <span class="purple white-text skill-badge">UML</span>
+          <span class="purple white-text skill-badge">Gestion de projet</span>
+        social: |
+          <span class="light-green darken-4 white-text skill-badge">Management & RH</span>
+          <span class="light-green darken-4 white-text skill-badge">Marketing</span>
+          <span class="light-green darken-4 white-text skill-badge">Conduite de réunion</span>
+          <span class="light-green darken-4 white-text skill-badge">Marketing</span>
+          <span class="light-green darken-4 white-text skill-badge">Management des Systèmes d'information</span>
+          <span class="light-green darken-4 white-text skill-badge">Droit</span>
+      toeic:
+        quote: "<i>Les tests Test of English for International Communication (TOEIC) sont des certifications standardisées permettant d'évaluer le niveau d'anglais des locuteurs non anglophones tant au niveau de l'écrit que de l'oral.</i> &mdash; Wikipedia"
+        text: Les scores allant de 905 à 990 sur 990 correspondent à C1 sur le <a class="tooltipped" data-position="bottom" data-delay="50" data-tooltip="Cadre Européen Commun de Référence pour les Langues">CECR</a> et indiquent une personne pouvant communiquer efficacement dans toute situation.
+        btn: J'ai compris !
+  
   loisirs:
     title: "Loisirs"
     short_desc: "Les activités qui me tiennent à coeur et que je pratique durant mon temps libre"
+    sport:
+      name: "Sports"
+      climb:
+        name: "Escalade"
+        description : |
+          <p>
+            Grimpeur invétéré depuis 2013, je pratique le bloc en salle ou à l'exterieur. Mon repère de grimpeur est la salle Grimper d'Aix-en-Provence. Lorsque je suis en forme, j'arrive à atteindre la difficulté 7a.
+          </p>
+          <blockquote>
+          <i>L’escalade de bloc se pratique sur des murs de 3 à 5 mètres de hauteur maximum et sans encordement : la réception au sol est assurée par des tapis très épais</i> &mdash; altissimo-escalade.com
+          </blockquote>
+          <p>
+            <label>&copy;Crédit photo : <a href="http://www.salle-grimper.com/">Salles Grimper</a></label>
+          </p>
+      snow:
+        name: "Snowboard"
+        description : |
+          <p>
+            Grand amateur de montagne, j'ai commencé le snowboard lorsque j'avais 12 ans et le pratique toujours aujourd'hui. Partant à la montagne dès que possible, je m'initie actuellement au hors-piste.
+            <br><br>
+            La Haute-Savoie reste mon terrain de jeu favori, bien que je visite régulièrement le reste des Alpes et les Pyrénées et je compte aller explorer les montagnes à l'étranger."
+          </p>
+          <p>
+            <label>&copy;Crédit photo : <a href="dimitridell.de">Dimitri Dell</a></label>
+          </p>
+    loisirs:
+      name: "Loisirs"
+      travel:
+        name: "Voyages"
+        description : |
+          <p>
+            Voyageant depuis mon enfance, mes parents m'ont transmis l'envie de découvrir d'autres cultures et paysages. Ayant beaucoup visité les territoires de l'océan Pacifique et de l'Europe de l'Ouest, je compte prochainement aller du côté de l'Amérique du Nord ou des pays nordiques.
+            <br><br>
+            <dl>
+              <dt><strong>Europe de l'Ouest</strong></dt>
+              <dd>
+                Ecosse, Espagne, Portugal, Corse, Grèce, Italie
+              </dd>
+              <dt><strong>Pacifique</strong></dt>
+              <dd>
+                Australie, Nouvelle-Zélande, Nouvelle-Calédonie, Thaïlande, Bali
+              </dd>
+            </dl> 
+          </p>
+
+      music:
+        name: "Musique"
+        description : |
+          <p>
+            Du Blues au Rap, de Queen aux Dropkick Murphys, la musique est un élément central de ma vie. Non pratiquant mais fervent amateur, j'en écoute dès que possible, à la maison, dans les transports ou durant le sport.
+            <br><br>
+            <strong>Chansons et artistes de la playlist :</strong>
+             <ol type="1">
+              <li><i>Morcheeba</i> - Rome wasn't built in a day</li>
+              <li><i>Deluxe</i> - My game</li>
+              <li><i>Dropkick Murphys</i> - Going out in style</li>
+              <li><i>1995</i> - Flava in ya ear</li>
+              <li><i>Scorpions</i> - Rock you like a hurricane</li>
+              <li><i>John Lee Hooker</i> - Boom boom</li>
+              <li><i>Big Bad Voodoo Daddy</i> - Diga Diga Doo</li>
+              <li><i>Queen</i> - Bohemian Rhapsody</li>
+            </ol> 
+          </p>
+      # read:
+      #   name: "Lecture & Jeux"
+      #   description : "Here is some more information about this product that is only revealed once clicked on."
+    assoc:
+      name: "Associatif"
+      bde:
+        name: "Secrétaire du BDE 3IL Rodez"
+        description : |
+          <p>
+            Durant ma deuxième année à l’école d’ingénieur 3IL à Rodez j’ai intégré le Bureau des Étudiants en tant que secrétaire. J’y ai appris à organiser des évènements ainsi qu’à en faire la communication et le support et la gestion durant ces évènements. 
+            <br><br>
+            Nous  avons  organisés  plusieurs  évènements  durant  cette  année :  soirées,  séjour au ski, à Salou et évènements type paintball, karting…
+          </p>
+  
   project:
     title: "Projets"
     short_desc: "L'ensemble des projets réalisés à l'école ou indépendamment"
+    goal_title: "But du projet"
+    desc_title: "Description"
+    techno_title: "Technologies"
     portfolio:
       name: "Portfolio"
-      short_desc: "Description de mon portfolio."
+      short_desc: "Mon CV en ligne."
+      goal: "But du portfolio"
+      description: "Description de mon portfolio"
+      techno: "Technologies de mon portfolio"
+    ebar:
+      name: "eBar"
+      short_desc: "Un distributeur de boisson connecté."
+      goal: "But du portfolio"
+      description: "Description de mon portfolio"
+      techno: "Technologies de mon portfolio"
+    core:
+      name: "Noyau d'un graphe"
+      short_desc: "Calcul et modélisation du noyau d'un graphe."
+      goal: "But du portfolio"
+      description: "Description de mon portfolio"
+      techno: "Technologies de mon portfolio"
+    rentcar:
+      name: "Location de voiture"
+      short_desc: "Application Access permettant de gérer une agence de location de voiture."
+      goal: "But du portfolio"
+      description: "Description de mon portfolio"
+      techno: "Technologies de mon portfolio"
+    algo:
+      name: "Parcours labyrinthe"
+      short_desc: "Création d'un algorithme de parcours d'un labyrinthe."
       goal: "But du portfolio"
       description: "Description de mon portfolio"
       techno: "Technologies de mon portfolio"
@@ -27,23 +199,138 @@ en:
   footer:
     find_me: "Find me"
     author: "This website was created by Carmignac with "
+ 
   accueil:
     title: "Home"
     jumbotron: |
-      Welcome, this website is my portfolio. Discover my profile, experiences and projects. I'm a young engineer who loves is work and likes to travel.<br/><br/>Enjoy !
+      Welcome, this website is my portfolio. Discover the profile of a young engineer who loves is work and likes to travel.<br/><br/>Enjoy !
     more: "More details"
+  
   resume:
     title: "Curriculum vitae"
     short_desc: "Mon parcours scolaire, mes différents emplois ainsi que mes compétences"
+    professional:
+      title: "Professional experience"
+      bittle: 
+        title: Bittle - Apprentice engineer <label>September 2012 – September 2015</label>
+        description: |
+          <p>ENTravail au support et à la R&D. Création d’une fonctionnalité d’extraction des données dans un fichier Excel (Java). Modification de l’IHM (Java, GWT, GXT 2 et 3, CSS).</p>
+      snecma: 
+        title: Safran Snecma - Trainee <label>April 2012 – June 2012</label>
+        description: |
+          <p>ENCréation d’un outil de suivi des espaces de stockages (Java).</p>
+    formation:
+      title: "Formation"
+      3il: 
+       title: Engineering school in computing - 3IL Rodez <label>2012 – 2015</label>
+       description: |
+          <p>Travail au support et à la R&D. Création d’une fonctionnalité d’extraction des données dans un fichier Excel (Java). Modification de l’IHM (Java, GWT, GXT 2 et 3, CSS).</p>
+      iut:
+        title: IT Academic degree of technology  - IUT d’Aix-en-Provence <label>2009 – 2012</label>
+        description : |
+          <p>Travail au support et à la R&D. Création d’une fonctionnalité d’extraction des données dans un fichier Excel (Java). Modification de l’IHM (Java, GWT, GXT 2 et 3, CSS).</p>
+      lycee:
+        title: Technical High school diploma - Electronics Speciality - Marie-Madeleine Fourcade High school <label>2006 - 2009</label>
+        description: |
+          <p>Travail au support et à la R&D. Création d’une fonctionnalité d’extraction des données dans un fichier Excel (Java). Modification de l’IHM (Java, GWT, GXT 2 et 3, CSS).</p>
+    others:
+      title: "Others experiences"
+      bnp:
+        title: BNP Paribas - Desk clerk <label>Juillet 2012</label>
+      buffalo:
+        title: "Buffalo Grill - Dishwasher, appetizer and dessert assistant <label>Juillet 2011</label>"
+      sg:
+        title: Société Général - Secretaryship <label>Juillet 2010</label>
+      stef:
+        title: STEF-TFE - Cold room assistant of command <label>Août 2009</label>
+    skills:
+      technical: Technical skills
+      social:
+        title: Social and Engineering skills
+        lang : |
+          <span class="orange accent-4 white-text skill-badge">English</span>
+          <span class="orange accent-4 white-text skill-badge">TOEIC (935/990) <a class=" modal-trigger" href="#modal1"><i class="black-text mdi-image-loupe"></i></a></span>
+        eng: |
+          <span class="purple white-text skill-badge">Merise</span>
+          <span class="purple white-text skill-badge">UML</span>
+          <span class="purple white-text skill-badge">Project Management</span>
+        social: |
+          <span class="light-green darken-4 white-text skill-badge">Management & RH</span>
+          <span class="light-green darken-4 white-text skill-badge">Marketing</span>
+          <span class="light-green darken-4 white-text skill-badge">Meeting management</span>
+          <span class="light-green darken-4 white-text skill-badge">Management information system</span>
+          <span class="light-green darken-4 white-text skill-badge">French Laws</span>
+      toeic:
+        quote: "<i>The Test of English for International Communication (TOEIC) is an English language test designed specifically to measure the everyday English skills of people working in an international environment.</i> &mdash; Wikipedia"
+        text: The 995-990 out 990 scores is the equivalent of C1 <a class="tooltipped" data-position="bottom" data-delay="50" data-tooltip="Common European Framework of Reference for Languages">CEFR</a> and indicate someone able to communicate in any situation.
+        btn: Got it !
+ 
   loisirs:
     title: "Spare-time Activities"
     short_desc: "Les activités qui me tiennent à coeur et que je pratique durant mon temps libre"
+    sport:
+      name: "Sports"
+      climb:
+        name: "Escalade"
+        description : "Here is some more information about this product that is only revealed once clicked on."
+      snow:
+        name: "Snowboard"
+        description : "Here is some more information about this product that is only revealed once clicked on."
+    loisirs:
+      name: "Loisirs"
+      travel:
+        name: "Travel"
+        description : "Here is some more information about this product that is only revealed once clicked on."
+      music:
+        name: "Music"
+        description : "me more information about this "
+      # read:
+      #   name: "Lecture & Jeux"
+      #   description : "Here is some more information about this product that is only revealed once clicked on."
+    assoc:
+      name: "Associatif"
+      bde:
+        name: "Secrétaire du BDE 3IL Rodez"
+        description : |
+          <p>
+            Durant ma deuxième année à l’école d’ingénieur 3IL à Rodez j’ai intégré le Bureau des Étudiants en tant que secrétaire. J’y ai appris à organiser des évènements ainsi qu’à en faire la communication et le support et la gestion durant ces évènements. 
+            <br><br>
+            Nous  avons  organisés  plusieurs  évènements  durant  cette  année :  soirées,  séjour au ski, à Salou et évènements type paintball, karting…
+          </p>
+  
   project:
     title: "Projects"
     short_desc: "L'ensemble des projets réalisés à l'école ou indépendamment"
+    goal_title: "But du projet"
+    desc_title: "Description"
+    techno_title: "Technologies"
     portfolio:
-      name: "PortfolioEN"
-      short_desc: "ENDescription de mon portfolio."
-      goal: "ENBut du portfolio"
-      description: "ENDescription de mon portfolio"
-      techno: "ENTechnologies de mon portfolio"
+      name: "Portfolio"
+      short_desc: "Mon CV en ligne."
+      goal: "But du portfolio"
+      description: "Description de mon portfolio"
+      techno: "Technologies de mon portfolio"
+    ebar:
+      name: "eBar"
+      short_desc: "Un distributeur de boisson connecté."
+      goal: "But du portfolio"
+      description: "Description de mon portfolio"
+      techno: "Technologies de mon portfolio"
+    core:
+      name: "Noyau d'un graphe"
+      short_desc: "Calcul et modélisation du noyau d'un graphe."
+      goal: "But du portfolio"
+      description: "Description de mon portfolio"
+      techno: "Technologies de mon portfolio"
+    rentcar:
+      name: "Location de voiture"
+      short_desc: "Application Access permettant de gérer une agence de location de voiture."
+      goal: "But du portfolio"
+      description: "Description de mon portfolio"
+      techno: "Technologies de mon portfolio"
+    algo:
+      name: "Parcours labyrinthe"
+      short_desc: "Création d'un algorithme de parcours d'un labyrinthe."
+      goal: "But du portfolio"
+      description: "Description de mon portfolio"
+      techno: "Technologies de mon portfolio"

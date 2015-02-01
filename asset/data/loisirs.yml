@@ -1,34 +1,40 @@
-title : "Loisirs"
+title : "loisirs.title"
 parallax: "asset/images/background/alizarin.png"
 nav-color: "red darken-1"
 loisirs:
     - id: "sports"
-      name: "Sports"
+      name: "loisirs.sport.name"
       content:
-        - name: "Escalade"
+        - name: "loisirs.sport.climb.name"
           img: <img src="media/images/climbing.jpg">
-          description: "Here is some more information about this product that is only revealed once clicked on."
-        - name: "Snowboard"
+          description: "loisirs.sport.climb.description"
+        - name: "loisirs.sport.snow.name"
           img: <img src="media/images/snowboard.jpg">
-          description: "Here is some more information about this product that is only revealed once clicked on."
+          description: "loisirs.sport.snow.description"
   
     - id: "loisirs"
-      name: "Loisirs"
+      name: "loisirs.loisirs.name"
       content:
-        - name: "Voyages"
+        - name: "loisirs.loisirs.travel.name"
           img: |
             <div id="gmap-section" class="iframe-rwd">
                 <div id="map-canvas"></div>
             </div>
-          description: "Here is some more information about this product that is only revealed once clicked on."
-        - name: "Lecture & Jeux"
-          img : <img src="media/images/snowboard.jpg">
-          description : "Here is some more information about this product that is only revealed once clicked on."
+          description: "loisirs.loisirs.travel.description"
+        - name: "loisirs.loisirs.music.name"
+          img: |
+            <div class="video-container">
+              <iframe src="https://www.youtube.com/embed/videoseries?cc_load_policy=0&rel=0&autohide=1&controls=1&fs=0&iv_load_policy=3&disablekb=1&modestbranding=1&list=PLvQGTznGH23Dhyst-cXcPLuZVHOxOm1ro" width="560" height="315" frameborder="0" allowfullscreen></iframe>
+            </div>
+          description : "loisirs.loisirs.music.description" 
+        # - name: "loisirs.loisirs.read.name"
+        #   img : <img src="media/images/snowboard.jpg">
+        #   description : "loisirs.loisirs.read.description"
 
     - id: "associatif"
-      name: "Associatif"
+      name: "loisirs.assoc.name"
       content:
-        - name: "Secrétaire du BDE 3IL Rodez"
+        - name: "loisirs.assoc.bde.name"
           img: <img src="media/images/bde.jpg">
-          description: "Here is some more information about this product that is only revealed once clicked on."
+          description: "loisirs.assoc.bde.description"
       

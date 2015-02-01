@@ -60,8 +60,8 @@ class Database
 	 */
 	public function getProjectByUrl($url) 
 	{
-		$result = $this->db->querySingle('SELECT name as title, main_img as parallax, main_color as "nav-color", goal, description, techno FROM projets ORDER BY "ORDER"', true);
-		$result['title'] = my_i18n($result['title']);
+		$result = $this->db->querySingle('SELECT name, main_img as parallax, main_color as "nav-color", goal, description, techno FROM projets ORDER BY "ORDER"', true);
+		$result['name'] = my_i18n($result['name']);
 		$result['goal'] = my_i18n($result['goal']);
 		$result['description'] = my_i18n($result['description']);
 		$result['techno'] = my_i18n($result['techno']);

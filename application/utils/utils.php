@@ -49,7 +49,7 @@ function route($routes)
 	if ($route_size <= 0 || $routes[0] == "accueil") 
 	{
 		$template_name = "accueil";
-		$data = array('message' => '{{#i18n}}accueil.jumbotron{{/i18n}}');
+		$data = array('nav-color' => ' blue lighten-1');
 	} else if ($routes[0] == "experience") 
 	{
 		$template_name = 'cv';
@@ -70,6 +70,7 @@ function route($routes)
 			
 			//$projets = getProjectData();
 			// $data = array('title' => 'Mon projet', 'parallax' => 'asset/images/background/bg4.png', 'nav-color' => 'teal accent-3', 'projets' => $projets);
+			
 			
 		} else
 		{
@@ -104,6 +105,15 @@ use Symfony\Component\Yaml\Yaml;
 function getLoisirData() 
 {
 	$return = new ArrayIterator(getYamlArray("asset/data/loisirs.yml"));
+	foreach ($return['loisirs'] as &$list_loisir) 
+	{
+		$list_loisir['name'] = my_i18n($list_loisir['name']);
+
+		foreach ($list_loisir['content'] as &$loisir) {
+			$loisir['name'] = my_i18n($loisir['name']);
+			$loisir['description'] = my_i18n($loisir['description']);
+		}
+	}
 	return $return;
 }
 
@@ -135,7 +145,7 @@ function getResumeData()
 function getYamlArray($filename) 
 {
 	$value = Yaml::parse(file_get_contents($filename));
-	
+	$value['title'] = my_i18n($value['title']);
 	return $value;
 }
 ?>

@@ -23,6 +23,17 @@ $(document).ready(function() {
         $('.dropdown-button').dropdown();
     });
 
+    // Initialisation des tooltips
+    $(document).ready(function(){
+        $('.tooltipped').tooltip({delay: 50});
+    });
+
+    
+  $(document).ready(function(){
+    // the "href" attribute of .modal-trigger must specify the modal ID that wants to be triggered
+    $('.modal-trigger').leanModal();
+  });
+      
     // Gestion du gmap
     if ($('#gmap-section').length != 0) {
         gmap();
@@ -119,11 +130,11 @@ function gmap() {
                     position: results[0].geometry.location,
                     icon: 'asset/images/marker.png'
                 }); // get icon on http://flaticons.net/customize.php?dir=Mobile%20Application&icon=Location-Marker.png
-                var contentString = '<div id="content"><div id="siteNotice"></div><h5 id="firstHeading" class="firstHeading">' + address + '</h5><div id="bodyContent"><p>' + content + '</p></div></div>';
+               /* var contentString = '<div id="content"><div id="siteNotice"></div><h5 id="firstHeading" class="firstHeading">' + address + '</h5><div id="bodyContent"><p>' + content + '</p></div></div>';
                 google.maps.event.addListener(marker, 'click', function() {
                     infowindow.setContent(contentString);
                     infowindow.open(map, marker);
-                });
+                });*/
             } else {
                 alert("Geocode was not successful for the following reason: " + status);
             }
