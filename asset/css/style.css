@@ -150,7 +150,12 @@
     margin-bottom: 2px;
 }
 
-
+/**
+ * Ajout d'un scroll sur les card des loisirs pour gérer les petits écrans
+ */
+ .card-loisir {
+    overflow-y: auto;
+ }
  /**
  * Permet de changer la couleur sur les sommaires dynamiques
  */

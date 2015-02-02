@@ -60,13 +60,20 @@ class Database
 	 */
 	public function getProjectByUrl($url) 
 	{
-		$result = $this->db->querySingle('SELECT name, main_img as parallax, main_color as "nav-color", goal, description, techno FROM projets ORDER BY "ORDER"', true);
-		$result['name'] = my_i18n($result['name']);
-		$result['goal'] = my_i18n($result['goal']);
-		$result['description'] = my_i18n($result['description']);
-		$result['techno'] = my_i18n($result['techno']);
+		$stmt = $this->db->prepare('SELECT name, main_img as "parallax", main_color as "nav-color", goal, description, techno FROM projets WHERE url=? ORDER BY "ORDER"');
+		$stmt->bindValue(1, $url, \SQLITE3_TEXT);
+		//$result = $this->db->querySingle('SELECT name, main_img as "parallax", main_color as "nav-color", goal, description, techno FROM projets WHERRE url=:url ORDER BY "ORDER"', true);
+		$result = $stmt->execute();
 		
-		return $result;
+		$return = array();
+		if ($return = $result->fetchArray()) {
+			$return['name'] = my_i18n($return['name']);
+			$return['goal'] = my_i18n($return['goal']);
+			$return['description'] = my_i18n($return['description']);
+			$return['techno'] = my_i18n($return['techno']);
+		}
+
+		return $return;
 	}
 }
 ?>

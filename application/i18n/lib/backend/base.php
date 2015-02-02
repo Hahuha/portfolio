@@ -12,7 +12,7 @@ use \I18n\Symbol;
 
 //require_once('SymfonyComponents/YAML/sfYaml.php');
 
-require_once __DIR__ . '\..\..\..\vendor\autoload.php';
+require_once __DIR__ . '/../../../vendor/autoload.php';
 
 use Symfony\Component\Yaml\Yaml;
 

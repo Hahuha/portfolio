@@ -13,13 +13,12 @@
  * 		  	I18N			*
  * 							*
  ****************************/
-require_once __DIR__ . '\..\vendor\autoload.php';
-require_once ('/../i18n/I18n.php');
-
+require_once __DIR__ . '/../vendor/autoload.php';
+require_once __DIR__ . '/../i18n/I18n.php';
 use Symfony\Component\Yaml\Yaml;
 
 I18n\I18n::set_backend(null);
-I18n\I18n::push_load_path(__DIR__ . '\..\..\asset\i18n\messages.yml');
+I18n\I18n::push_load_path(__DIR__ . '/../../asset/i18n/messages.yml');
 $base = I18n\I18n::get_backend();
 
 function my_i18n($text) 

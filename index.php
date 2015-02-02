@@ -5,11 +5,10 @@
  * - (()
  * Classes list:
  */
-
 require_once 'application/mustache/src/Mustache/Autoloader.php';
-require_once 'application/utils/utils.php';
 require_once 'application/vendor/autoload.php';
 require_once 'application/utils/translation.php';
+require_once 'application/utils/utils.php';
 
 use Symfony\Component\Yaml\Yaml;
 
@@ -41,7 +40,7 @@ if (count($routes) >= 2 && $routes[0] == "locale")
     $param = route($routes);
     
     Mustache_Autoloader::register();
-    $mustache = new Mustache_Engine(array('loader' => new Mustache_Loader_FilesystemLoader(dirname(__FILE__) . '\application\templates'), 'partials_loader' => new Mustache_Loader_FilesystemLoader(dirname(__FILE__) . '\application\templates\partials'), 'helpers' => array('i18n' => function ($text) 
+    $mustache = new Mustache_Engine(array('loader' => new Mustache_Loader_FilesystemLoader(dirname(__FILE__) . '/application/templates'), 'partials_loader' => new Mustache_Loader_FilesystemLoader(dirname(__FILE__) . '/application/templates/partials'), 'helpers' => array('i18n' => function ($text) 
     {
         return my_i18n($text);
     },)));

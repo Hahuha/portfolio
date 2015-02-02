@@ -12,21 +12,24 @@ fr:
   resume:
     title: "Curriculum vitae"
     short_desc: "Mon parcours scolaire, mes différents emplois ainsi que mes compétences"
+    show: "Cliquez sur un poste pour afficher le détail"
     professional:
       title: "Expériences professionnelles"
       bittle: 
-        title: Bittle - Apprenti ingénieur <label>Septembre 2012 – Septembre 2015</label>
+        title: Bittle - Apprenti ingénieur <label class="hide-on-small-only">Septembre 2012 – Septembre 2015</label>
         description: |
           <p>
+            <span class="hide-on-large-only"><strong>Durée de l'activité :</strong> Septembre 2012 – Septembre 2015<br></span>
             <strong>Site officiel :</strong> <a href="http://www.bittle-solutions.com/">www.bittle-solutions.com</a>
             <br><br>
             Bittle est l'entreprise dans laquelle j'ai effectué mon apprentissage durant mes trois années d'école d'ingénieurs. Basée à Aix-en-Provence, c'est une entreprise à dimension humaine où j'ai put trouver des personnes qui m'ont beaucoup apporté sur un plan à la fois humain et technique.<br><br>
             D'un point de vue humain j'ai appris le fonctionnement d'une entreprise et également à travailler sur différents projets avec d'autres personnes tout en respectant les délais. Sur le plan technique j'ai appris à utiliser JEE et Hibernate et j'ai approfondi mes connaissances en HTML, CSS, Javascript et web. 
           </p>    
       snecma: 
-        title: Safran Snecma - Stagiaire <label>Avril 2012 – Juin 2012</label>
+        title: Safran Snecma - Stagiaire <label class="hide-on-small-only">Avril 2012 – Juin 2012</label>
         description: |
           <p>
+            <span class="hide-on-large-only"><strong>Durée de l'activité :</strong> Avril 2012 – Juin 2012<br></span>
             <strong>Site officiel :</strong> <a href="http://www.snecma.com/">www.snecma.com/</a>
           <br><br>
             Ce stage de deux mois, réalisé dans le cadre de mes études de DUT, a eu lieu sur le site Snecma de Villaroche, où sont réalisés les études et les essais des moteurs d'avions. Ce fut la première fois que je dut réaliser un projet dans un milieu professionel, j'ai appris à recueillir les besoins du client, à les exprimer puis à réaliser le projet attendu.
@@ -173,8 +176,43 @@ fr:
     ebar:
       name: "eBar"
       short_desc: "Un distributeur de boisson connecté."
-      goal: "But du portfolio"
-      description: "Description de mon portfolio"
+      goal: |
+        <p>
+          L'objectif de se projet de 3e année était de réaliser un distributeur automatique de boisson avec tout le système sous-jacent. 
+          Ce système comprenait un distributeur automatique, une application Android permettant de se connecter à la machine et un serveur web 
+          contenant un site web de gestion des machines et interagissant avec l'application Android et les machines.
+        </p>
+      description: |
+        <p>
+          Dans le cadre de notre 3e année à 3IL nous devions réaliser un projet de 5 mois en groupe de 3 à 5 personnes. 
+          Nous nous sommes réunis avec Lionel Caubet (comme chef de projet), Damien Calmels, Valentin Moulin, <a href="https://www.linkedin.com/profile/view?id=326021692">Yohan Delmas</a>
+          et moi pour réaliser ce projet, sur une idée originale de Valentin Moulin.
+        </p>
+        <p>
+          Ce projet comptabilise 89 jours/homme et a été livré avec un total de 14 livrables et 23 fonctionnalités livrées et acceptées.
+          <br><br>
+          <h5>Description des éléments du projet</h5>
+          <dl>
+              <dt><b>Distributeur automatique</b></dt>
+              <dd>
+                Le distributeur permettait de se connecter via NFC et affichait le solde restant de l'utilisateur. 
+                Une fois connecté, l'utilisateur pouvait se servir et devait se déconnecter à l'aide de son téléphone. 
+                La quantité servie était ensuite débitée de son solde.
+              </dd>
+              <dt><b>Application Android</b></dt>
+              <dd>
+                L'application Android permettait à l'utilisateur de se créer un compte et de s'y connecter, de consulter et modifier 
+                ses informations personnelles, de recharger son solde via un paiement en ligne utilisant PayPal et de se connecter au 
+                distributeur.
+              </dd>
+              <dt><b>Site web de gestion</b></dt>
+              <dd>
+                Le site web permettait de gérer (création, modification, suppression) les utilisateurs, les boissons et les distributeurs du bar.
+                Un tableau de bord contenait plusieurs indicateurs tels que le nombre de services et la recette de la journée. Il permettait 
+                également d'éteindre les distributeurs et leur de signaler les recharges en boisson.
+              </dd>
+            </dl> 
+        </p>
       techno: "Technologies de mon portfolio"
     core:
       name: "Noyau d'un graphe"
@@ -203,22 +241,29 @@ en:
   accueil:
     title: "Home"
     jumbotron: |
-      Welcome, this website is my portfolio. Discover the profile of a young engineer who loves is work and likes to travel.<br/><br/>Enjoy !
+      Welcome, this website is my portfolio. Discover the profile of a young engineer who loves his work and likes to travel.<br/><br/>Enjoy !
     more: "More details"
   
   resume:
     title: "Curriculum vitae"
     short_desc: "Mon parcours scolaire, mes différents emplois ainsi que mes compétences"
+    show: "Click on a job to see some details"
     professional:
       title: "Professional experience"
       bittle: 
-        title: Bittle - Apprentice engineer <label>September 2012 – September 2015</label>
+        title: Bittle - Apprentice engineer <label class="hide-on-small-only">September 2012 – September 2015</label>
         description: |
-          <p>ENTravail au support et à la R&D. Création d’une fonctionnalité d’extraction des données dans un fichier Excel (Java). Modification de l’IHM (Java, GWT, GXT 2 et 3, CSS).</p>
+          <p>
+            <span class="hide-on-large-only"><strong>Durée de l'activité :</strong> Septembre 2012 – Septembre 2015<br></span>
+            ENTravail au support et à la R&D. Création d’une fonctionnalité d’extraction des données dans un fichier Excel (Java). Modification de l’IHM (Java, GWT, GXT 2 et 3, CSS).
+          </p>
       snecma: 
-        title: Safran Snecma - Trainee <label>April 2012 – June 2012</label>
+        title: Safran Snecma - Trainee <label class="hide-on-small-only">April 2012 – June 2012</label>
         description: |
-          <p>ENCréation d’un outil de suivi des espaces de stockages (Java).</p>
+          <p>
+            <span class="hide-on-large-only"><strong>Durée de l'activité :</strong> Avril 2012 – Juin 2012<br></span>
+            ENCréation d’un outil de suivi des espaces de stockages (Java).
+          </p>
     formation:
       title: "Formation"
       3il: 
