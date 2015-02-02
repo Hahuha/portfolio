@@ -11,30 +11,42 @@ fr:
   
   resume:
     title: "Curriculum vitae"
-    short_desc: "Mon parcours scolaire, mes différents emplois ainsi que mes compétences"
-    show: "Cliquez sur un poste pour afficher le détail"
+    short_desc: "Mon parcours scolaire, mes diff&eacute;rents emplois ainsi que mes comp&eacute;tences"
+    show: "Cliquez sur un poste pour afficher le d&eacute;tail"
     professional:
-      title: "Expériences professionnelles"
+      title: "Exp&eacute;riences professionnelles"
       bittle: 
-        title: Bittle - Apprenti ingénieur <label class="hide-on-small-only">Septembre 2012 – Septembre 2015</label>
+        title: |
+          Bittle - Apprenti ing&eacute;nieur <label class="hide-on-small-only">Septembre 2012 – Septembre 2015</label>
         description: |
           <p>
-            <span class="hide-on-large-only"><strong>Durée de l'activité :</strong> Septembre 2012 – Septembre 2015<br></span>
+            <span class="hide-on-large-only"><strong>Dur&eacute;e de l'activit&eacute; :</strong> Septembre 2012 &ndash; Septembre 2015<br></span>
             <strong>Site officiel :</strong> <a href="http://www.bittle-solutions.com/">www.bittle-solutions.com</a>
             <br><br>
-            Bittle est l'entreprise dans laquelle j'ai effectué mon apprentissage durant mes trois années d'école d'ingénieurs. Basée à Aix-en-Provence, c'est une entreprise à dimension humaine où j'ai put trouver des personnes qui m'ont beaucoup apporté sur un plan à la fois humain et technique.<br><br>
-            D'un point de vue humain j'ai appris le fonctionnement d'une entreprise et également à travailler sur différents projets avec d'autres personnes tout en respectant les délais. Sur le plan technique j'ai appris à utiliser JEE et Hibernate et j'ai approfondi mes connaissances en HTML, CSS, Javascript et web. 
+            Bittle est l'entreprise dans laquelle j'ai effectu&eacute; mon apprentissage durant mes trois ann&eacute;es d'&eacute;cole d'ing&eacute;nieurs. 
+            Bas&eacute;e &agrave; Aix-en-Provence, c'est une entreprise &agrave; dimension humaine o&ugrave; j'ai pu trouver des personnes qui m'ont beaucoup 
+            apport&eacute; sur un plan &agrave; la fois humain et technique.
+            <br><br>
+            D'un point de vue humain j'ai appris le fonctionnement d'une entreprise et &eacute;galement &agrave; travailler sur diff&eacute;rents projets 
+            avec d'autres personnes tout en respectant les d&eacute;lais. Sur le plan technique j'ai appris &agrave; utiliser JEE et Hibernate et j'ai 
+            approfondi mes connaissances en HTML, CSS, Javascript et web. 
           </p>    
       snecma: 
-        title: Safran Snecma - Stagiaire <label class="hide-on-small-only">Avril 2012 – Juin 2012</label>
+        title: |
+          Safran Snecma - Stagiaire <label class="hide-on-small-only">Avril 2012 &ndash; Juin 2012</label>
         description: |
           <p>
-            <span class="hide-on-large-only"><strong>Durée de l'activité :</strong> Avril 2012 – Juin 2012<br></span>
+            <span class="hide-on-large-only"><strong>Dur&eacute;e de l'activit&eacute; :</strong> Avril 2012 &ndash; Juin 2012<br></span>
             <strong>Site officiel :</strong> <a href="http://www.snecma.com/">www.snecma.com/</a>
           <br><br>
-            Ce stage de deux mois, réalisé dans le cadre de mes études de DUT, a eu lieu sur le site Snecma de Villaroche, où sont réalisés les études et les essais des moteurs d'avions. Ce fut la première fois que je dut réaliser un projet dans un milieu professionel, j'ai appris à recueillir les besoins du client, à les exprimer puis à réaliser le projet attendu.
+            Ce stage de deux mois, r&eacute;alis&eacute; dans le cadre de mes &eacute;tudes de DUT, a eu lieu sur le site Snecma de Villaroche, o&ugrave; sont 
+            r&eacute;alis&eacute;s les &eacute;tudes et les essais des moteurs d'avions. Ce fut la premi&egrave;re fois que je dus r&eacute;aliser un projet dans un milieu 
+            professionel, j'ai appris &agrave; recueillir les besoins du client, &agrave; les exprimer puis &agrave; r&eacute;aliser le projet attendu.
           <br><br>
-            Ce projet consistait en la réalisation d’une application de consultation et modification de suivi d’espaces de stockage du site de Villaroche pour plusieurs utilisateurs. Application qui puisse gérer un système de comptes utilisateurs/administrateurs. Ce projet à été réalisé en Java, à l'aide de la librairie graphique Swing, de la librairie JNDI pour interagir avec l'annuaire LDAP du site et de la librairie DOM4J pour manipuler les fichiers XML dans lesquels étaient stockés les données.
+            Ce projet consistait en la r&eacute;alisation d&rsquo;une application de consultation et modification de suivi d&rsquo;espaces de stockage du 
+            site de Villaroche pour plusieurs utilisateurs. Cette application permettait de g&eacute;rer un syst&egrave;me de comptes utilisateurs/administrateurs. 
+            Ce projet &agrave; &eacute;t&eacute; r&eacute;alis&eacute; en Java, &agrave; l'aide de la librairie graphique Swing, de la librairie JNDI pour interagir avec l'annuaire 
+            LDAP du site et de la librairie DOM4J pour manipuler les fichiers XML dans lesquels &eacute;taient stock&eacute;s les donn&eacute;es.
           </p>
     formation:
       title: "Formation"
@@ -45,7 +57,7 @@ fr:
       lycee:
         title: Baccalauréat STI - Lycée Marie-Madeleine Fourcade - Spécialité Électronique <label>2006 - 2009</label>
     others:
-      title: "Autres experiences"
+      title: "Autres expériences"
       bnp:
         title: BNP Paribas - Hôte d’accueil <label>Juillet 2012</label>
         description: <p>Description</p>
@@ -59,9 +71,9 @@ fr:
         title: STEF-TFE - Préparateur de commande en chambre froide <label>Août 2009</label>
         description: <p>Description</p>
     skills:
-      technical: Compétences techniques
+      technical: "Comp&eacute;tences techniques"
       social:
-        title: Compétences sociales et d'ingénierie
+        title: "Comp&eacute;tences sociales et d'ing&eacute;nierie"
         lang : |
           <span class="orange accent-4 white-text skill-badge">Anglais</span>
           <span class="orange accent-4 white-text skill-badge">TOEIC (935/990) <a class=" modal-trigger" href="#modal1"><i class="black-text mdi-image-loupe"></i></a></span>
@@ -72,42 +84,42 @@ fr:
         social: |
           <span class="light-green darken-4 white-text skill-badge">Management & RH</span>
           <span class="light-green darken-4 white-text skill-badge">Marketing</span>
-          <span class="light-green darken-4 white-text skill-badge">Conduite de réunion</span>
-          <span class="light-green darken-4 white-text skill-badge">Marketing</span>
-          <span class="light-green darken-4 white-text skill-badge">Management des Systèmes d'information</span>
+          <span class="light-green darken-4 white-text skill-badge">Conduite de r&eacute;union</span>
+          <span class="light-green darken-4 white-text skill-badge">Management des Syst&egrave;mes d'information</span>
           <span class="light-green darken-4 white-text skill-badge">Droit</span>
       toeic:
-        quote: "<i>Les tests Test of English for International Communication (TOEIC) sont des certifications standardisées permettant d'évaluer le niveau d'anglais des locuteurs non anglophones tant au niveau de l'écrit que de l'oral.</i> &mdash; Wikipedia"
-        text: Les scores allant de 905 à 990 sur 990 correspondent à C1 sur le <a class="tooltipped" data-position="bottom" data-delay="50" data-tooltip="Cadre Européen Commun de Référence pour les Langues">CECR</a> et indiquent une personne pouvant communiquer efficacement dans toute situation.
+        quote: "<i>Les tests Test of English for International Communication (TOEIC) sont des certifications standardis&eacute;es permettant d'&eacute;valuer le niveau d'anglais des locuteurs non anglophones tant au niveau de l'&eacute;crit que de l'oral.</i> &mdash; Wikipedia"
+        text: |
+          Les scores allant de 905 &agrave; 990 sur 990 correspondent &agrave; C1 sur le <a class="tooltipped" data-position="bottom" data-delay="50" data-tooltip="Cadre Europ&eacute;en Commun de R&eacute;f&eacute;rence pour les Langues">CECR</a> et indiquent une personne pouvant communiquer efficacement dans toute situation.
         btn: J'ai compris !
   
   loisirs:
     title: "Loisirs"
-    short_desc: "Les activités qui me tiennent à coeur et que je pratique durant mon temps libre"
+    short_desc: "Les activit&eacute;s qui me tiennent &agrave; coeur et que je pratique durant mon temps libre"
     sport:
       name: "Sports"
       climb:
         name: "Escalade"
         description : |
           <p>
-            Grimpeur invétéré depuis 2013, je pratique le bloc en salle ou à l'exterieur. Mon repère de grimpeur est la salle Grimper d'Aix-en-Provence. Lorsque je suis en forme, j'arrive à atteindre la difficulté 7a.
+            Grimpeur inv&eacute;t&eacute;r&eacute; depuis 2013, je pratique le bloc en salle ou &agrave; l'exterieur. Mon rep&egrave;re de grimpeur est la salle Grimper d'Aix-en-Provence. Lorsque je suis en forme, j'arrive &agrave; atteindre la difficult&eacute; 7a.
           </p>
           <blockquote>
-          <i>L’escalade de bloc se pratique sur des murs de 3 à 5 mètres de hauteur maximum et sans encordement : la réception au sol est assurée par des tapis très épais</i> &mdash; altissimo-escalade.com
+          <i>L&rsquo;escalade de bloc se pratique sur des murs de 3 &agrave; 5 m&egrave;tres de hauteur maximum et sans encordement : la r&eacute;ception au sol est assur&eacute;e par des tapis tr&egrave;s &eacute;pais</i> &mdash; altissimo-escalade.com
           </blockquote>
           <p>
-            <label>&copy;Crédit photo : <a href="http://www.salle-grimper.com/">Salles Grimper</a></label>
+            <label>&copy;Cr&eacute;dit photo : <a href="http://www.salle-grimper.com/">Salles Grimper</a></label>
           </p>
       snow:
         name: "Snowboard"
         description : |
           <p>
-            Grand amateur de montagne, j'ai commencé le snowboard lorsque j'avais 12 ans et le pratique toujours aujourd'hui. Partant à la montagne dès que possible, je m'initie actuellement au hors-piste.
+            Grand amateur de montagne, j'ai commenc&eacute; le snowboard lorsque j'avais 12 ans et le pratique toujours aujourd'hui. Partant &agrave; la montagne d&egrave;s que possible, je m'initie actuellement au hors-piste.
             <br><br>
-            La Haute-Savoie reste mon terrain de jeu favori, bien que je visite régulièrement le reste des Alpes et les Pyrénées et je compte aller explorer les montagnes à l'étranger."
+            La Haute-Savoie reste mon terrain de jeu favori, bien que je visite r&eacute;guli&egrave;rement le reste des Alpes et les Pyr&eacute;n&eacute;es et je compte aller explorer les montagnes &agrave; l'&eacute;tranger.
           </p>
           <p>
-            <label>&copy;Crédit photo : <a href="dimitridell.de">Dimitri Dell</a></label>
+            <label>&copy;Cr&eacute;dit photo : <a href="dimitridell.de">Dimitri Dell</a></label>
           </p>
     loisirs:
       name: "Loisirs"
@@ -115,16 +127,16 @@ fr:
         name: "Voyages"
         description : |
           <p>
-            Voyageant depuis mon enfance, mes parents m'ont transmis l'envie de découvrir d'autres cultures et paysages. Ayant beaucoup visité les territoires de l'océan Pacifique et de l'Europe de l'Ouest, je compte prochainement aller du côté de l'Amérique du Nord ou des pays nordiques.
+            Voyageant depuis mon enfance, mes parents m'ont transmis l'envie de d&eacute;couvrir d'autres cultures et paysages. Ayant beaucoup visit&eacute; les territoires de l'oc&eacute;an Pacifique et de l'Europe de l'Ouest, je compte prochainement aller du c&ocirc;t&eacute; de l'Am&eacute;rique du Nord ou des pays nordiques.
             <br><br>
             <dl>
               <dt><strong>Europe de l'Ouest</strong></dt>
               <dd>
-                Ecosse, Espagne, Portugal, Corse, Grèce, Italie
+                Ecosse, Espagne, Portugal, Corse, Gr&egrave;ce, Italie
               </dd>
               <dt><strong>Pacifique</strong></dt>
               <dd>
-                Australie, Nouvelle-Zélande, Nouvelle-Calédonie, Thaïlande, Bali
+                Australie, Nouvelle-Z&eacute;lande, Nouvelle-Cal&eacute;donie, Tha&iuml;lande, Bali
               </dd>
             </dl> 
           </p>
@@ -133,7 +145,7 @@ fr:
         name: "Musique"
         description : |
           <p>
-            Du Blues au Rap, de Queen aux Dropkick Murphys, la musique est un élément central de ma vie. Non pratiquant mais fervent amateur, j'en écoute dès que possible, à la maison, dans les transports ou durant le sport.
+            Du Blues au Rap, de Queen aux Dropkick Murphys, la musique est un &eacute;l&eacute;ment central de ma vie. Non pratiquant mais fervent amateur, j'en &eacute;coute d&egrave;s que possible, &agrave; la maison, dans les transports ou durant le sport.
             <br><br>
             <strong>Chansons et artistes de la playlist :</strong>
              <ol type="1">
@@ -153,12 +165,12 @@ fr:
     assoc:
       name: "Associatif"
       bde:
-        name: "Secrétaire du BDE 3IL Rodez"
+        name: "Secr&eacute;taire du BDE 3IL Rodez"
         description : |
           <p>
-            Durant ma deuxième année à l’école d’ingénieur 3IL à Rodez j’ai intégré le Bureau des Étudiants en tant que secrétaire. J’y ai appris à organiser des évènements ainsi qu’à en faire la communication et le support et la gestion durant ces évènements. 
+            Durant ma deuxi&egrave;me ann&eacute;e &agrave; l&rsquo;&eacute;cole d&rsquo;ing&eacute;nieur 3IL &agrave; Rodez j&rsquo;ai int&eacute;gr&eacute; le Bureau des &Eacute;tudiants en tant que secr&eacute;taire. J&rsquo;y ai appris &agrave; organiser des &eacute;v&egrave;nements ainsi qu&rsquo;&agrave; en faire la communication, le support et la gestion durant ces &eacute;v&egrave;nements. 
             <br><br>
-            Nous  avons  organisés  plusieurs  évènements  durant  cette  année :  soirées,  séjour au ski, à Salou et évènements type paintball, karting…
+            Nous  avons  organis&eacute;  plusieurs  &eacute;v&egrave;nements  durant  cette  ann&eacute;e :  soir&eacute;es,  s&eacute;jour au ski, &agrave; Salou et &eacute;v&egrave;nements type paintball, karting&hellip;
           </p>
   
   project:
@@ -338,9 +350,9 @@ en:
         name: "Secrétaire du BDE 3IL Rodez"
         description : |
           <p>
-            Durant ma deuxième année à l’école d’ingénieur 3IL à Rodez j’ai intégré le Bureau des Étudiants en tant que secrétaire. J’y ai appris à organiser des évènements ainsi qu’à en faire la communication et le support et la gestion durant ces évènements. 
+            Durant ma deuxième année à l’école d’ingénieur 3IL à Rodez j’ai intégré le Bureau des Étudiants en tant que secrétaire. J’y ai appris à organiser des évènements ainsi qu’à en faire la communication, le support et la gestion durant ces évènements. 
             <br><br>
-            Nous  avons  organisés  plusieurs  évènements  durant  cette  année :  soirées,  séjour au ski, à Salou et évènements type paintball, karting…
+            Nous  avons  organisé  plusieurs  évènements  durant  cette  année :  soirées,  séjour au ski, à Salou et évènements type paintball, karting…
           </p>
   
   project:
