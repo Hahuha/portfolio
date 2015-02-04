@@ -1,37 +1,29 @@
 {{>top}}
 {{> section_nav}}
-
-<div class="container">
-    <div class="section">
-    <div class="row">
-        <div class="center"><h1 class="title-header" style="border-color:{{nav-color}}">{{ name }}</h1></div>
+<div class="row container">
+    <div class="center col s12 m12 l12"><h1 class="title-header" style="border-color:{{nav-color}}">{{ name }}</h1></div>
+    <div class="col s12 m8 offset-m2 l10 ">
+        <section id="goal">
+            <h3>{{#i18n}}project.goal_title{{/i18n}}</h3>
+            {{{goal}}}
+        </section>
+        <section id="desc">
+            <h3>{{#i18n}}project.desc_title{{/i18n}}</h3>
+            {{{description}}}
+        </section>
+        <section id="techno">
+            <h3>{{#i18n}}project.techno_title{{/i18n}}</h3>
+            {{{techno}}}
+        </section>
     </div>
-    <div class="row">
-        <div class="col s12 m8 offset-m2 l10 ">
-            <section id="goal">
-                <h3>{{#i18n}}project.goal_title{{/i18n}}</h3>
-                {{{goal}}}
-            </section>
-            <section id="desc">
-                <h3>{{#i18n}}project.desc_title{{/i18n}}</h3>
-                {{{description}}}
-            </section>
-            <section id="techno">
-                <h3>{{#i18n}}project.techno_title{{/i18n}}</h3>
-                {{{techno}}}
-            </section>
-        </div>
-        <div class="col hide-on-small-only s12 m3 l2">
-            <div style="height: 1px;">
-                <ul class="section table-of-contents pinned" style="top: 0px;">                    
-                    <li><a href="#goal" class="">{{#i18n}}project.goal_title{{/i18n}}</a></li>
-                    <li><a href="#desc" class="">{{#i18n}}project.desc_title{{/i18n}}</a></li>
-                    <li><a href="#techno" class="">{{#i18n}}project.techno_title{{/i18n}}</a></li>
-                </ul>
-            </div>
+    <div class="col hide-on-small-only s12 m3 l2">
+        <div style="height: 1px;">
+            <ul class="section table-of-contents pinned" style="top: 0px;">
+                <li><a href="#goal" class="">{{#i18n}}project.goal_title{{/i18n}}</a></li>
+                <li><a href="#desc" class="">{{#i18n}}project.desc_title{{/i18n}}</a></li>
+                <li><a href="#techno" class="">{{#i18n}}project.techno_title{{/i18n}}</a></li>
+            </ul>
         </div>
     </div>
 </div>
-</div>
-
 {{>bottom}}

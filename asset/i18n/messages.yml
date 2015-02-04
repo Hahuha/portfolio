@@ -6,7 +6,7 @@ fr:
   accueil:
     title: "Accueil"
     jumbotron: |
-        Bienvenue, ce site est mon portfolio. D&eacute;couvrez-y le profil d'un jeune ing&eacute;nieur aimant son travail et aimant bouger.<br/><br/>Bonne visite !
+        Bienvenue sur mon site web !<br> Vous y d&eacute;couvrirez le profil d'un jeune ing&eacute;nieur dynamique : mes experiences professionelles, les formations que j'ai suivies, les projets r&eacute;alis&eacute;s et toutes mes activit&eacute;s favorites.<br/><br/>Bonne visite !
     more: "Plus d'informations"
   
   resume:
@@ -108,7 +108,7 @@ fr:
           <i>L&rsquo;escalade de bloc se pratique sur des murs de 3 &agrave; 5 m&egrave;tres de hauteur maximum et sans encordement : la r&eacute;ception au sol est assur&eacute;e par des tapis tr&egrave;s &eacute;pais</i> &mdash; altissimo-escalade.com
           </blockquote>
           <p>
-            <label>&copy;Cr&eacute;dit photo : <a href="http://www.salle-grimper.com/">Salles Grimper</a></label>
+            <label>&copy;Cr&eacute;dit photo : <a href="http://www.pays-imaginaire.fr/">Philippe Echaroux</a></label>
           </p>
       snow:
         name: "Snowboard"
@@ -253,7 +253,7 @@ en:
   accueil:
     title: "Home"
     jumbotron: |
-      Welcome, this website is my portfolio. Discover the profile of a young engineer who loves his work and likes to travel.<br/><br/>Enjoy !
+      Welcome on my website !<br> You'll discover the profile of a young, dynamic engineer : my professional experience, my educational cursus, the projects I've done and all the things I love !<br/><br/>Bonne visite !
     more: "More details"
   
   resume:

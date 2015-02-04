@@ -49,7 +49,7 @@ function route($routes)
 	if ($route_size <= 0 || $routes[0] == "accueil") 
 	{
 		$template_name = "accueil";
-		$data = array('nav-color' => ' blue lighten-1');
+		$data = array('nav-color' => '  green accent-3');
 	} else if ($routes[0] == "experience") 
 	{
 		$template_name = 'cv';
