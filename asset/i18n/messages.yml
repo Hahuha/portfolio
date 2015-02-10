@@ -225,7 +225,21 @@ fr:
               </dd>
             </dl> 
         </p>
-      techno: "Technologies de mon portfolio"
+      techno: |
+        <h5>Hardware</h5>
+        <p>
+          La machine a été créée grâce à un nano-ordinateur Rasperry Pi B+. Celui-ci était relié à un récepteur NFC, un écran permettant d'afficher des informations, un bouton poussoir et à une electrovanne permettant de déclencher le débit de boisson.
+          Il communiquait avec le serveur via un cable Ethernet.
+        </p>
+        <h5>Android</h5>
+        <p>
+          Pour fonctionner correctement, l'application devait être installée sur un smartphone Android équipé du NFC. Cette application permettait à l'utilisateur de se créer un compte sur le système, de consulter et modifier ses informations personnelles, 
+        </p>
+        <h5>Serveur Web</h5>
+        <p>
+          La partie serveur web du projet était le coeur de métier de l'application. Elle permettait d'une part d'interagir avec l'application Android et les machines 
+          et d'autre part proposait un site web permettant de gérer les utilisateurs, boissons et machines (création, modification et suppression).
+        </p>
     core:
       name: "Noyau d'un graphe"
       short_desc: "Calcul et modélisation du noyau d'un graphe."
@@ -253,7 +267,7 @@ en:
   accueil:
     title: "Home"
     jumbotron: |
-      Welcome on my website !<br> You'll discover the profile of a young, dynamic engineer : my professional experience, my educational cursus, the projects I've done and all the things I love !<br/><br/>Bonne visite !
+      Welcome to my website !<br> You'll discover the profile of a young, dynamic engineer : my professional experience, my educational cursus, the projects I've done and all the things I love !<br/><br/>Bonne visite !
     more: "More details"
   
   resume:
