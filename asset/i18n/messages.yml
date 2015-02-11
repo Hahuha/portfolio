@@ -182,9 +182,37 @@ fr:
     portfolio:
       name: "Portfolio"
       short_desc: "Mon CV en ligne."
-      goal: "But du portfolio"
-      description: "Description de mon portfolio"
-      techno: "Technologies de mon portfolio"
+      goal: |
+        <p>
+          J'ai créé ce site dans le but d'avoir une visibilité sur Internet, de pouvoir présenter un travail publique mais également pour pouvoir essayer différents outils Web avec lesquels je voulais me familiariser.
+        </p>
+      description: |
+        <p>
+          Ce site est simplement une présentation personnelle. J'ai choisi de le réaliser pour avoir un terrain de jeu sur lequel je pouvais utiliser n'importe quelle technologie sans contraintes et avoir un produit personnalisé que je peux améliorer lorsque j'en ai envie. Il sera donc amenéà être modifié au fil du temps, que ça soit pour suivre les tendances du WebDesign ou pour essayer une technologie emergente.
+        </p>
+      techno: |
+        <p>
+          Pour la première version de ce site (février 2015), j'ai utilisé les technologies suivantes 
+          <dl>
+            <dt>MaterializeCSS</dt>
+            <dd>Voulant gagner du temps tout en gardant un résultat de qualité, j'ai choisi d'utiliser un framework CSS. Etant déjà familiarisé avec Twitter Boostrap, j'ai utilisé MaterializeCSS, ajoutant ainsi un nouvel élément à ma boîte à outil d'ingénieur.</dd>
+            <dt>JavaScript</dt>
+            <dd>J'ai évidemment utilisé le désormais standard JQuery pour divers effets et pour sélectionner les éléments de ma page. De plus, MaterializeCSS fournissant un certain nombre de librairies JS, je les ai utilisées pour créer les divers éléments interactifs que vous pouvez voir sur le site. J'ai également fait appel à GoogleMapJS pour créer la carte disponible dans la section Voyages de la partie Loisirs.</dd>
+            <dt>Mustache PHP</dt>
+            <dd>Cherchant un moteur de template, j'ai décidé de m'orienter vers un outil léger et rapide à prendre en main. Mes recherches m'ont donc menée vers Mustache PHP qui offrait tout ces avantages et qui permet également une grande personnalisation et une facilité de lecture du code.</dd>
+            <dt>sfYaml</dt>
+            <dd></dd>
+            <dt>php-i18n par Tom Rochette</dt>
+            <dd>Découverte par le bouche à oreille et ayant des besoins limités en la matière, j'ai utilisé le travail de Tom Rochette pour internationaliser le site.</dd>
+            <dt>SQLite</dt>
+            <dd></dt>
+            <dt>Apache mod_rewrite</dt>
+            <dd></dt>
+            
+            <dt>Ressources (images, icones, video, etc.)</dt>
+            <dd></dt>
+          </dl>
+        </p>
     ebar:
       name: "eBar"
       short_desc: "Un distributeur de boisson connecté."
