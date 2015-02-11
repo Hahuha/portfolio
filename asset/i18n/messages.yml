@@ -200,17 +200,16 @@ fr:
             <dd>J'ai évidemment utilisé le désormais standard JQuery pour divers effets et pour sélectionner les éléments de ma page. De plus, MaterializeCSS fournissant un certain nombre de librairies JS, je les ai utilisées pour créer les divers éléments interactifs que vous pouvez voir sur le site. J'ai également fait appel à GoogleMapJS pour créer la carte disponible dans la section Voyages de la partie Loisirs.</dd>
             <dt>Mustache PHP</dt>
             <dd>Cherchant un moteur de template, j'ai décidé de m'orienter vers un outil léger et rapide à prendre en main. Mes recherches m'ont donc menée vers Mustache PHP qui offrait tout ces avantages et qui permet également une grande personnalisation et une facilité de lecture du code.</dd>
-            <dt>sfYaml</dt>
-            <dd></dd>
             <dt>php-i18n par Tom Rochette</dt>
             <dd>Découverte par le bouche à oreille et ayant des besoins limités en la matière, j'ai utilisé le travail de Tom Rochette pour internationaliser le site.</dd>
+            <dt>sfYaml</dt>
+            <dd>Ayant besoin de stocker les textes en différentes langues, je me suis orienté vers le YAML, qui était un format de données que je n'avais pas encore utilisé. Pour traiter ces données, j'ai choisi d'utiliser la librairie Yaml de Symfony, que j'ai intégré au site à l'aide de Composer.</dd>
             <dt>SQLite</dt>
-            <dd></dt>
+            <dd>Utiliser une base de données standard type MySQL aurait été exagéré pour ce projet. J'ai donc stocké les données relatives à la partie Projets dans une petite base de données SQLite.</dt>
             <dt>Apache mod_rewrite</dt>
-            <dd></dt>
-            
-            <dt>Ressources (images, icones, video, etc.)</dt>
-            <dd></dt>
+            <dd>Afin d'avoir des url claires et lisibles, j'ai utilisé le module rewrite fourni par défaut dans Apache.</dt>
+            <dt>OVH</dt>
+            <dd>Pour héberger ce site j'ai choisi l'hébergeur français OVH car il proposait le plus de fonctionnalités à des prix interessants.</dt>
           </dl>
         </p>
     ebar:
